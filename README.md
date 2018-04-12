@@ -1,6 +1,8 @@
 ### Mifer Blog Theme Wordpress
 
-This is a simple Wordpress Blog Page built by HTML, CSS, SASS, JS and Materialize CSS.
+Simple Wordpress Blog Page built by HTML, CSS, SASS, JS and Materialize CSS.
+
+( This is the firstime i have developed a wordpress template so it wouldn't be the best organizational structure for wordpress theme. I just want to have a simple blog with 2 types of posts are: Article and Product. Of course this template must be incudes all another wordpress's basic page, and  my lists for each page file is lied under the "Layout Pages" tag )
 
 ## Prerequisites
 
