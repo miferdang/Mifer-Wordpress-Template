@@ -1,0 +1,67 @@
+/* Some element i dont like in materialize css so i will change them in this file */
+
+/* Global elements */
+body
+  background: $light-bg-color
+
+button
+  background: none
+  border: none
+  &:focus
+    background: #fff
+    border: none
+
+li
+  list-style: none
+
+input, textarea
+  &:focus
+    outline: none
+
+/*Nav*/
+nav
+  background-color: #fff
+  box-shadow: 0 1px 3px rgba(190, 190, 190, .2)
+  ul a
+    font-size: $small
+    color: $light-grey-color
+    &:hover
+      background: #fff
+      color: $primary-color
+
+/* Pagination */
+.pagination
+  background: none
+  box-shadow: none
+  .screen-reader-text
+    display: none
+  .nav-links
+    span, a
+      margin: 7px
+      padding: 10px
+      background: #fff
+      border-radius: 4px
+    span
+      color: $primary-color
+    a
+      color: $grey-color
+
+/* Footer */
+footer
+  padding: 10px 10px 0px 10px
+
+/* Row & Column */
+.row
+  margin: 0px
+  .col
+    padding: 0px
+.col
+  padding: 0px
+  .row
+    margin: 0px
+
+
+/* Card*/
+.card
+  box-shadow: none
+  margin: 0

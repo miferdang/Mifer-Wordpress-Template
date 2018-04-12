@@ -1,0 +1,140 @@
+/* Import sass file */
+@import common
+@import edit
+@import wp
+@import responsive
+
+/* Navbar */
+#navbar-default
+  .brand-logo
+    font-size: 40px
+    .img-logo
+      width: 177px
+  .btn-menu
+    display: none
+  ul li a
+    line-height: 64px
+#navbar-mobile
+  display: none
+  position: absolute
+  z-index: 999
+  width: 100%
+  background: #fff
+  border-top: 1px solid $light-bg-color
+  ul li
+    padding: 15px
+    border-bottom: 1px solid $light-bg-color
+
+/* Header */
+.header-banner
+  background: #fff
+  .title-header
+    h1
+      margin: 17px 0px 10px 0px
+      font-size: 37px
+      &:hover
+        color: $primary-color
+    p
+      padding-right: 30px !important
+  .img-banner
+    width: 100%
+  nav
+    height: 57px
+    margin-top: 10px
+    padding: 15px 0px
+    border-top: 1px solid $light-bg-color
+    .btn-menu
+      font-size: 20px
+      color: $light-grey-color
+
+/* Title Line */
+.title-line
+  width: 70px
+  margin: 0 auto
+  border-bottom: 2px solid $primary-color
+
+/* Sidebar */
+.sidebar-page
+  padding-left: 27px !important
+
+/* Common Page */
+.body-page
+  margin: 10px 0px
+  .card
+    margin: 30px 0px
+
+/* Blog Page & Category Page */
+#body-blog .card, #body-category .card
+  img
+    width: 120%
+  .card-img
+    height: 170px
+    overflow: hidden
+  .card-info
+    padding-left: 25px
+  .read-more
+    color: $primary-color
+
+#body-blog .card, #body-category .card, #body-list-product .card
+  p
+    margin-bottom: 0px !important
+  .title-card h5
+    margin: 7px 0px
+    font-size: 23px
+    font-weight: 500
+    &:hover
+      color: $primary-color
+  .time-card
+    margin-bottom: 10px
+    span, svg
+      font-size: $super-small
+      color: $light-grey-color
+
+/* Single Page & Product Page */
+#body-article .card, #body-product .card
+  .card-content
+    padding: 30px
+  .time-card
+    margin: 10px 0px 30px 0px
+    span
+      color: $primary-color
+  .title-card
+    h1
+      margin: 10px 0px
+      font-size: 30px
+  .content-card
+    margin: 20px 0px
+
+/* Category Page */
+#body-category
+  .title-category
+    margin-top: 30px
+    padding: 5px 14px
+    background: #fff
+    border-radius: 2px
+
+#category-product
+  .title-category
+    margin-left: 20px
+
+/* Product List Page  */
+#body-list-product, #category-product
+  .card-product
+    padding: 0 20px
+    border-radius: 4px
+    .card
+      padding: 10px
+    img
+      width: 100%
+    .card-info
+      padding: 17px 10px 0px 10px
+    .card-img
+      height: 200px
+      overflow: hidden
+      box-shadow: 0 1px 3px rgba(190, 190, 190, 0.2)
+    .title-card h5
+      font-size: 18px
+      line-height: 25px
+
+#pagination-list-product ul li a:hover
+  color: $primary-color

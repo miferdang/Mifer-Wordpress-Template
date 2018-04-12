@@ -1,0 +1,5 @@
+<?php
+/**
+ * Nothing is here.
+ **/
+?>

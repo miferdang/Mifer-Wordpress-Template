@@ -1,0 +1,143 @@
+/* My custom css to change default elements css of wordpress will be lies here */
+
+/* Content image post */
+
+.content-card img
+  max-width: 100%
+  height: auto
+
+/* Widget */
+.widget
+  @extend %pattern-material
+  margin: 30px 0px
+  padding-bottom: 17px
+  p, a, span
+    line-height: 27px
+    font-size: $small
+    color: $light-grey-color
+.widgettitle
+  margin: 0px 0px 30px 0px
+  font-size: 18px
+  &::before
+    position: absolute
+    width: 50px
+    margin: 10px 0px
+    content: "text"
+    font-size: 0px
+    border-bottom: 1.5px solid $primary-color
+
+/* Widget Search */
+.widget_search
+label
+  display: none !important
+input
+  width: 62% !important
+  height: 37px !important
+  border: 1px solid $super-light-grey-color !important
+  border-radius: 2px !important
+#searchsubmit
+  width: 36% !important
+  height: 41px !important
+  margin-left: -5px !important
+  padding: 0px 17px !important
+  background: $primary-color
+  color: #fff !important
+  border: none !important
+
+/* Comments */
+#comments
+  .comment
+    margin: 20px 0px
+  .avatar
+    vertical-align: top
+    margin-right: 14px
+  .says
+    display: none
+  .vcard
+    font-size: 16px
+    font-weight: bold
+  .comment-author, .commentmetadata
+    display: inline
+    cite
+      font-style: normal
+  .commentmetadata
+    float: right
+    padding-top: 2px
+    a
+      font-size: 13px
+      color: $light-grey-color
+  .reply
+    margin: 10px 0px 0px 60px
+    a
+      font-size: 13px
+      color: $primary-color
+  .comment-body
+    padding-top: 15px
+    border-top: 1px solid #f0f0f0
+  .comment p
+    margin: -14px 0px 0px 62px
+    font-size: 14px
+  fn
+    text-align: none !important
+  .navigation
+    margin: 5px
+    padding: 25px 0px
+    border-top: 1px solid #f0f0f0
+  .comment-form-comment label
+    display: none
+  .comment-form-comment textarea
+    height: 90px
+  em
+    float: right
+    font-size: $small
+    color: $primary-color
+  .comment-await
+    display: none
+
+#respond
+  border-top: 1px solid $light-bg-color
+  padding-top: 30px
+  h3
+    text-align: center
+    font-size: 20px
+    color: $primary-color
+  .logged-in-as, .comment-notes
+    margin: 30px 0px 20px 0px
+    text-align: center
+  textarea
+    height: 140px !important
+    border: 1px solid $super-light-grey-color
+    border-radius: 2px
+  .form-submit
+    text-align: center
+    .submit
+      width: 140px !important
+      height: 47px !important
+      margin-top: 10px
+      background: #fff
+      border: 1px solid $primary-color !important
+      &:hover
+        background: $primary-color
+        color: #fff
+  .comment-form-author,
+  .comment-form-email,
+  .comment-form-url
+    width: 33.3%
+    float: left
+    padding: 0px 10px
+    input
+      width: 92% !important
+      padding: 0 10px
+      border: 1px solid $super-light-grey-color
+      border-radius: 4px
+
+@media only screen and (max-width: 688px)
+  #respond
+    .comment-form-author,
+    .comment-form-email,
+    .comment-form-url
+      width: 100%
+      margin: 0px !important
+      input
+        width: 100% !important
+        padding: 0px !important
