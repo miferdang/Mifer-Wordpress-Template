@@ -8,7 +8,7 @@ Simple Wordpress Blog Page built by HTML, CSS, SASS, JS and Materialize CSS.
  be the best organizational structure for wordpress theme.
  I just want to have a simple blog with 2 types of posts are: Article and Product.
  Of course this template must be incudes all another wordpress's basic page,
- and  my lists for each page file is lied under the "Layout Pages" tag )
+ and  my lists for each page is lied under the "Structure" tag )
 
 # Prerequisites
 
