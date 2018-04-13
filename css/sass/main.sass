@@ -91,7 +91,8 @@
       color: $light-grey-color
 
 /* Single Page & Product Page */
-#body-article .card, #body-product .card
+#body-article .card, #body-product .card, #body-page .card,
+#body-contact .card, #body-search
   .card-content
     padding: 30px
   .time-card
@@ -138,3 +139,34 @@
 
 #pagination-list-product ul li a:hover
   color: $primary-color
+
+/* Contact Page */
+#body-contact
+  .content-card
+    margin: 40px 0px 20px 0px !important
+  form
+    width: 500px
+    margin: 0 auto !important
+    .input-form, .textarea-form
+      padding: 10px
+    input
+      width: 90% !important
+      padding: 2px 10px
+    textarea
+      height: 100px
+      padding: 10px
+
+/* Search Page */
+#body-search
+  margin: 70px 0px
+  .search-page-container
+    width: 600px
+    margin: 0 auto
+  .search-result h5
+    font-size: 18px
+    font-weight: 500
+  .search-result h5:hover, .read-more
+      color: $primary-color !important
+
+#search-form-page
+  padding:  40px 0px 20px 0px

@@ -7,3 +7,7 @@ function showMenuMobile(id){
     chosenMenu.style.display = 'block';
   }
 };
+
+function submitContact(){
+  alert('Thank you for contacting me ! Have a nice day ^^')
+}

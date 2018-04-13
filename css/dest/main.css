@@ -26,6 +26,13 @@ p {
 .primary-color {
   color: #ff4249; }
 
+.btn-primary {
+  margin: 7px;
+  padding: 10px 30px;
+  background: #ff4249;
+  border-radius: 2px;
+  color: #fff; }
+
 /* Some element i dont like in materialize css so i will change them in this file */
 /* Global elements */
 body {
@@ -41,8 +48,10 @@ button {
 li {
   list-style: none; }
 
-input:focus, textarea:focus {
-  outline: none; }
+input, textarea {
+  border: 1px solid #d5dae2; }
+  input:focus, textarea:focus {
+    outline: none; }
 
 /*Nav*/
 nav {
@@ -284,7 +293,9 @@ input {
     #body-list-product .card-product .card {
       margin: 20px 0px !important; }
     #body-list-product .card-product .card-img {
-      height: 230px !important; } }
+      height: 230px !important; }
+  #body-contact form {
+    width: 100% !important; } }
 
 /* Navbar */
 #navbar-default .brand-logo {
@@ -377,19 +388,24 @@ input {
     color: #8b8fa0; }
 
 /* Single Page & Product Page */
-#body-article .card .card-content, #body-product .card .card-content {
+#body-article .card .card-content, #body-product .card .card-content, #body-page .card .card-content,
+#body-contact .card .card-content, #body-search .card-content {
   padding: 30px; }
 
-#body-article .card .time-card, #body-product .card .time-card {
+#body-article .card .time-card, #body-product .card .time-card, #body-page .card .time-card,
+#body-contact .card .time-card, #body-search .time-card {
   margin: 10px 0px 30px 0px; }
-  #body-article .card .time-card span, #body-product .card .time-card span {
+  #body-article .card .time-card span, #body-product .card .time-card span, #body-page .card .time-card span,
+  #body-contact .card .time-card span, #body-search .time-card span {
     color: #ff4249; }
 
-#body-article .card .title-card h1, #body-product .card .title-card h1 {
+#body-article .card .title-card h1, #body-product .card .title-card h1, #body-page .card .title-card h1,
+#body-contact .card .title-card h1, #body-search .title-card h1 {
   margin: 10px 0px;
   font-size: 30px; }
 
-#body-article .card .content-card, #body-product .card .content-card {
+#body-article .card .content-card, #body-product .card .content-card, #body-page .card .content-card,
+#body-contact .card .content-card, #body-search .content-card {
   margin: 20px 0px; }
 
 /* Category Page */
@@ -422,3 +438,34 @@ input {
 
 #pagination-list-product ul li a:hover {
   color: #ff4249; }
+
+/* Contact Page */
+#body-contact .content-card {
+  margin: 40px 0px 20px 0px !important; }
+
+#body-contact form {
+  width: 500px;
+  margin: 0 auto !important; }
+  #body-contact form .input-form, #body-contact form .textarea-form {
+    padding: 10px; }
+  #body-contact form input {
+    width: 90% !important;
+    padding: 2px 10px; }
+  #body-contact form textarea {
+    height: 100px;
+    padding: 10px; }
+
+/* Search Page */
+#body-search {
+  margin: 70px 0px; }
+  #body-search .search-page-container {
+    width: 600px;
+    margin: 0 auto; }
+  #body-search .search-result h5 {
+    font-size: 18px;
+    font-weight: 500; }
+  #body-search .search-result h5:hover, #body-search .read-more {
+    color: #ff4249 !important; }
+
+#search-form-page {
+  padding: 40px 0px 20px 0px; }
