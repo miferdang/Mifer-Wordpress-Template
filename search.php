@@ -10,16 +10,20 @@
       <div class="search-form" id="search-form-page">
         <?php get_search_form(); ?>
       </div>
-      <?php while ( have_posts() ) : the_post(); ?>
-        <div class="search-result card">
-          <div class="card-content">
-            <a href="<?php the_permalink(); ?>">
-              <h5 class="search-post-title"><?php the_title(); ?></h5>
-            </a>
-            <p> <?php the_excerpt(); ?> </p>
-          </div>
+      <div class="search-result card">
+        <div class="card-content">
+          <?php if ( have_posts() ) {
+            while ( have_posts() ) : the_post(); ?>
+              <a href="<?php the_permalink(); ?>">
+                <h5 class="search-post-title"><?php the_title(); ?></h5>
+              </a>
+              <p> <?php the_excerpt(); ?> </p>
+            <?php endwhile;
+          } else { ?>
+            <p> Không có kết quả tìm kiếm nào khớp với truy vấn của bạn. </p>
+          <?php }; ?>
         </div>
-      <?php endwhile; ?>
+      </div>
     </div>
   </div>
 </section>

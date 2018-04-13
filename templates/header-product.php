@@ -3,7 +3,7 @@
   <div class="row">
     <div class="col m12 l4">
       <div class="title-header">
-        <a href="http://miferdang.freetzi.com"><h1> Mifer's Products </h1></a>
+        <a href="http://miferdang.freetzi.com/product/"><h1> Mifer's Products </h1></a>
         <p class="left"> This is product page for all my designs and researchs  ! </p>
       </div>
     </div>
