@@ -33,7 +33,7 @@ and not really need to know alot about php and Javascript.
 * Single Product - `single-products.php` - This is the single page for product post type
 * Sidebar - `sidebar.php` - Sidebar would be displayed in 'home.php' (articles) & 'category.php' (category page)
 * Search - `search.php` - Search page with search form and search results
-* Contact - `contact.php` - You should delete this file because i made it for my individual contact form, you can use wordpress form plugin by creating a new contact page and installing form plugin form admin dashboard.
+* Contact - `contact.php` - You should delete this file because i made it for my individual contact form, you can use wordpress form plugin by creating a new contact page and installing form plugin fm admin dashboard.
 * Comments - `comment.php` - Configure comment for each single post here.
 * Category - `category.php` - You should divide 2 main type (top level) of categorys like article and product. Because the template for 2 post types are difference in this category page.
 
